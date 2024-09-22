@@ -1,0 +1,31 @@
+/* FILEPATH: /c:/Users/matst/OneDrive/Desktop/whiterosellc/root/Main_css.css */
+
+body {
+    background-color: #000015; /* very dark blue background */
+    color: gold; /* golden font color */
+    display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+}
+
+.corporate-name {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: silver;
+    font-weight: bold;
+    font-style: italic;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    background-color: #000015;
+    border: 2px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gold;
+}
