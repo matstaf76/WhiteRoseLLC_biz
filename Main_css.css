@@ -11,26 +11,24 @@ body {
 }
 
 .corporate-name {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
     color: silver;
     font-weight: bold;
     font-style: italic;
+    padding: 1em 0;
 }
 
 .main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     background-color: #000015;
     border: 2px solid gold;
     border-radius: 10px;
     box-shadow: 0 0 10px gold;
+    margin: 20px;
 }
 
 footer {
@@ -38,6 +36,7 @@ footer {
     text-align: center;
     padding: 1em;
     background-color: #f1f1f1;
+    color: #000;
 }
 
 .image-container {
@@ -62,3 +61,4 @@ footer {
         margin-bottom: 1em;
     }
 }
+
