@@ -28,7 +28,7 @@ body {
     border: 2px solid gold;
     border-radius: 10px;
     box-shadow: 0 0 10px gold;
-
+}
 body {
     display: flex;
     flex-direction: column;
@@ -65,8 +65,4 @@ footer {
         width: 50%;
         margin-bottom: 1em;
     }
-}
-
-
-    
 }
