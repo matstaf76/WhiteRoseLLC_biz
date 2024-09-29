@@ -34,7 +34,7 @@ html, body {
 footer {
     text-align: center;
     padding: 1em;
-    background-color: rgba(241, 241, 241, 0.5); /* Transparent background */;
+    background-color: transparent /* Transparent background */;
     color: #000;
 }
 
